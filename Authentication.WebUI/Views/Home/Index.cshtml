@@ -1,0 +1,8 @@
+﻿
+<h3>Selamlar</h3>
+
+<div class="alert alert-info fw-bold">
+    
+    @User.Claims.FirstOrDefault(x => x.Type == "fullName")?.Value
+
+</div>
